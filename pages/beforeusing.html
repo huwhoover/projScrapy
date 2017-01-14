@@ -1,0 +1,33 @@
+---
+layout: page
+title: "Before Using This Theme"
+---
+    <h3>Referenser</h3>
+    <ul>
+        <li><a href="https://spock.rocks/tech/2016/03/20/jekyll-rake-tasks.html">A Rakefile for Jekyll</a></li>
+        <li><a href="https://www.zfanw.com/blog/jekyll-new-post-rakefile.html">Jekyll 创建新文章</a></li>
+        <li><a href="https://github.com/imathis/octopress/blob/master/Rakefile">github octopress rakefile</a></li>
+        <li><a href="https://github.com/chenxsan/chenxsan.github.io/blob/master/Rakefile">an example</a></li>
+    </ul>
+    <blockquote>和通常的參考文獻排版方式不同，我把這部分放在最開頭。原因是，如果先閱讀了參考文獻，那麼接下來的內容就很容易理解了。</blockquote>
+    <hr />
+
+    <h3>en anteckning</h3>
+    <p>in this system, markdown syntax is not allowed. so, i should not put this below directly:</p>
+
+    <pre><code>
+    [A Rakefile for Jekyll](https://spock.rocks/tech/2016/03/20/jekyll-rake-tasks.html)
+    </code></pre>
+    <hr />
+
+    <h3>Om <code>_config.yml</code></h3>
+    <p>在這個文件中可以定義blogg的名稱，設置聯繫方式和插件等。</p>
+    <p>設置完畢後需要重新運行<code>jekyll serve</code>。</p>
+    <hr />
+
+    <h3> Om <code>Rakefile</code></h3>
+    <p>用這個程序可以按照自定義的模板自動生成適合主題的新文章或新頁面框架，在這個基礎上可以直接進行寫作，從而避免重複工作，例如寫入標題，作者，日期等。</p>
+    <hr />
+
+    <h3>Graceful-fs och Gulp</h3>
+    <p>某中文论坛上的帖子说：graceful-fs 在 node V6 下不支持，需要降级</p>
